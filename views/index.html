@@ -1,0 +1,15 @@
+{{> header}}
+
+	<div class="container"><br>
+		<div class="jumbotron" style="text-align: center; background-color: crimson; color: white">
+      		<h1 class="display-4 font-weight-bold">Cuisiner c'est bon pour la santé !</h1>
+      		<p>Utilisez le formulaire de recherche pour trouver une recette parmis les {{num_entries}} recettes indexées.</p>
+      		<hr>
+      		<p>Recettes au hasard :</p>
+      		{{> index_cards}}
+      		<hr>
+      		<a href="/all"><button  class="btn btn-light my-2" style="color: crimson; background-color: white">Toutes les recettes !</button></a>
+  		</div>
+  </div>
+
+{{> footer}}

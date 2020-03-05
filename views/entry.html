@@ -1,0 +1,39 @@
+{{> header}}
+  <br>
+  <div class="container">
+    <div class="row" style="color: white; background-color: crimson; border-style: dashed;">
+      <div class="row-cols col-sm">
+        <h1>{{title}}</h1>
+
+        <p>{{description}}</p>
+        <p>Durée : {{duration}}</p>
+      </div>
+      <div class="row-cols col-sm" style="text-align: center">
+        <img src="{{img}}">
+      </div>
+    </div>
+
+      <div class="row" style="color: crimson; background-color: white; border-style: dashed; border-color: crimson">
+      <div class="row-cols">
+      <b><u>Ingrédients :</u></b>
+      <ul>
+        {{#ingredients}}
+          <li>{{name}}</li>
+        {{/ingredients}}
+      </ul>
+      </div>
+    </div>
+
+      <div class="row" style="color: white; background-color: crimson; border-style: dashed;">
+      <div class="row-cols">
+      <b><u>Étapes :</u></b>
+      <ol>
+        {{#stages}}
+          <li>{{description}}</li>
+        {{/stages}}
+      </ol>
+      </div>
+    </div>
+  </div>
+
+{{> footer}}

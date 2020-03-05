@@ -1,0 +1,22 @@
+{{> header}}
+	
+	<div class="container">
+    	<h1 style="color: white">{{num_found}} recettes trouvées</h1>
+
+    	<div class="row">
+    		{{#results}}
+
+    		<div class="col mb-3">
+    			<div class="card h-100" style="width: 18rem;">
+  					<img src="{{img}}" class="card-img-top">
+  					<div class="card-body">
+  						<h5 class="card-title" style="color: crimson">{{title}}</h5>
+    					<a href="/entry/{{entry}}" class="btn btn-light my-2" style="color: white; background-color: crimson">Cuisinez !</a>
+  					</div>
+				</div>
+			</div>
+    		{{/results}}
+    	</div>
+    </div>
+
+{{> footer}}

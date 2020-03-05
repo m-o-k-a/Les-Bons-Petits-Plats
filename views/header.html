@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>LBBP | Cuisine Facile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+
+  <body style="background-color: lightcoral">
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: crimson">
+        <a class="navbar-brand" href="/">Les Bons Petits Plats</a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto"></ul>
+    	   <form action="/search" class="form-inline mt-2 mt-md-0">
+      		  <input type="text" name="query" value="{{query}}" class="form-control mr-sm-2">
+      		  <input type="submit" value="Rechercher" class="btn btn-light my-2" style="color: crimson">
+    	 </form>
+      </div>
+    </nav>
