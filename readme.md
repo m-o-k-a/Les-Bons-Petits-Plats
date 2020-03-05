@@ -2,9 +2,9 @@
 
 # Les Bons Petits Plats (Good Little Dishes)
  Node.js website done as a university project to use express.js, mustache-express and bootstrap.
-![Picture](./ad1.jpg)
-![Picture](./ad2.jpg)
-![Picture](./ad3.jpg)
+![Alpha Picture](./ad1.jpeg)
+![Alpha Picture](./ad2.jpeg)
+![Alpha Picture](./ad3.jpeg)
  
 # Built With 
  - Dependency: [node.js](https://nodejs.org)
