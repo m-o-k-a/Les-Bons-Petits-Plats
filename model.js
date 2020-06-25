@@ -120,4 +120,9 @@ exports.get_entry = (id) => {
 };
 
 /* Obtenir une recette au hasard */
-exports.get_random = () => { return entries[Math.floor(Math.random()*Math.floor(entries.length))]; }
+exports.get_random = () => { 
+	var rand = Math.floor(Math.random()*Math.floor(entries.length));
+	var random_entry = entries[rand];
+	random_entry.entry = rand;
+	return random_entry; 
+}
