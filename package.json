@@ -1,0 +1,20 @@
+{
+  "name": "les-bons-petits-plats",
+  "version": "1.0.0",
+  "description": "university project about a cooking website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-o-k-a/Les-Bons-Petits-Plats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-o-k-a/Les-Bons-Petits-Plats/issues"
+  },
+  "homepage": "https://github.com/m-o-k-a/Les-Bons-Petits-Plats#readme"
+}
